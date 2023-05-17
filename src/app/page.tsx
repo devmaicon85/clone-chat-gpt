@@ -43,7 +43,7 @@ export default function Page() {
                 chatListClone[chatIndex].messages.push({
                     id: uuid(),
                     author: "ai",
-                    body: "Aqui está a resposta da AI =)",
+                    body: "Aqui ficará a resposta da AI, que será implementado usando a API da OPENAI em breve =)",
                 });
 
                 setChatList(chatListClone);
